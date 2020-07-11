@@ -1,5 +1,6 @@
 import re
 import csv
+import sys
 import requests
 import time, os
 import itertools
@@ -9,7 +10,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-import columns from ColumnNames
+from ColumnNames import columns
 
 '''
 #credit: Roman Konoval StackOverflow
@@ -223,5 +224,10 @@ def write(file_name):
     with open('{}_data.csv'.format(date), 'w', newline='') as write_obj:
         # create writer object
         dict_writer = csv.DictWriter(write_obj, fieldnames = keys)
-        #dict_writer.writeheader()
+        dict_writer.writeheader()
         dict_writer.writerows(data)
+
+
+if __name__ == '__main__':
+    file_name = sys.argv[1]
+    write(file_name)
