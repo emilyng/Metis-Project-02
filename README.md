@@ -1,5 +1,4 @@
 # Metis-Project-02
-Code repo for my Metis Project 02\
 
 ### Goal of project is to predict Social Progress Index using different macroeconomic indicators, gov't expenditures, and energy usages of a country. I am interested in finding the features that would help raise a higher SPI. 
 
