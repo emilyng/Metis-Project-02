@@ -1,6 +1,6 @@
 # Social Progress Index
 
-## Inadequecies of GDP
+## Inadequacies of GDP
 GDP has been a long-serving measure for economists to indicate the success of a country. However, it fails to capture overall societal progress. It treats all types of spending the same and ignores the costs of consequences. [Social Progress Imperative](https://www.socialprogress.org/) created the Social Progress Index (SPI) as a new way to measure genuine wellbeing of a country. 
 
 ## GDP and SPI Correlation
