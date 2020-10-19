@@ -1,8 +1,8 @@
-# Metis-Project-02
+# Social Progress Index
 
 ### Goal of project is to predict Social Progress Index using different macroeconomic indicators, gov't expenditures, and energy usages of a country. I am interested in finding the features that would help raise a higher SPI. 
 
-## Project is separated into 2 distinct parts: web scraping section and modeling section. 
+~Project is separated into 2 distinct parts: web scraping section and modeling section. ~
 
 ### For web scraping portion, execute:
 ```python write_files.py```
