@@ -1,7 +1,31 @@
 # Social Progress Index
 
-### Goal of project is to predict Social Progress Index using different macroeconomic indicators, gov't expenditures, and energy usages of a country. I am interested in finding the features that would help raise a higher SPI. 
+## Inadequecies of GDP
+GDP has been a long-serving measure for economists to indicate the success of a country. However, it fails to capture overall societal progress. It treats all types of spending the same and ignores the costs of consequences. [Social Progress Imperative](https://www.socialprogress.org/) created the Social Progress Index (SPI) as a new way to measure genuine wellbeing of a country. 
 
+## GDP and SPI Correlation
+Although economic factors don’t go directly into SPI, there is a strong correlation between GDP and SPI. 
+However, a large GDP does not guarantee a high SPI. In fact, Costa Rica, the United States, and Singapore have similar SPIs but have a wide range of GDPs. 
+
+![GDPvSPI_2019](https://raw.githubusercontent.com/emilyng/Social_Progress_Index/master/Plots/GDPvSPI_2019.svg)
+
+From 2014-2019, the United States have been steadily increasing in GDP per capita while decreasing in SPI. In fact, the US showed to have the 2nd biggest **decrease** in SPI during this time frame. 
+
+![US_increasing_GDP_line](https://raw.githubusercontent.com/emilyng/Social_Progress_Index/master/Plots/US_GDP.svg)
+
+
+|     Top   Decreasing Countries    |     SPI   ‘19-’14 Difference    |
+|-----------------------------------|:-------------------------------:|
+|                      Nicaragua    |               -2.73             |
+|                United   States    |               -1.12             |
+|                         Brazil    |               -0.72             |
+|                        Hungary    |               -0.32             |
+|                       Columbia    |               -0.25             |
+
+
+### The goal of project is to predict Social Progress Index using different macroeconomic indicators, gov't expenditures, and energy usages of a country as a way to gain an insight on how and what factors influence SPI. 
+
+## Technicals
 ~Project is separated into 2 distinct parts: web scraping section and modeling section. ~
 
 ### For web scraping portion, execute:
